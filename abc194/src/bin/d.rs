@@ -1,5 +1,5 @@
 fn harmonic(n: u32) -> f64 {
-    (1..n).map(|i| 1.0/i as f64).sum()
+    (1..n).map(|i| 1.0 / i as f64).sum()
 }
 
 fn main() {

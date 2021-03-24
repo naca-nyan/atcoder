@@ -1,12 +1,12 @@
 [package]
-name = "dp"
+name = "abc193"
 version = "0.1.0"
-authors = ["naca <naca.nyan@gmail.com>"]
+authors = ["naca-nyan <naca.nyan@gmail.com>"]
 edition = "2018"
 
 # dependencies added to new project
 [dependencies]
-proconio = { version = "=0.3.6", features = ["derive"] }
+proconio = "0.4.1"
 
 [profile.release]
 lto = true
